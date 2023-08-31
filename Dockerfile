@@ -2,7 +2,7 @@
 FROM php:7.4-fpm
 
 # Set the working directory
-WORKDIR /var/www/html
+WORKDIR /Marolix_E-commerce/E-commerce-7June
 
 # Install PHP extensions and other dependencies
 RUN docker-php-ext-install pdo pdo_mysql
